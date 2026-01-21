@@ -6,7 +6,7 @@
     "homepage": "https://github.com/UD-S26-CISC374/final-project-template#readme",
     "scripts": {
         "dev": "vite --config vite/config.dev.mjs",
-        "build": "tsc -b && vite build vite/config.prod.mjs",
+        "build": "tsc -b && vite build --config vite/config.prod.mjs",
         "lint": "eslint ./src",
         "lint:fix": "eslint  --fix ./src",
         "eslint-output": "eslint-output ./src --ext .tsx --ext .ts --max-warnings 0",

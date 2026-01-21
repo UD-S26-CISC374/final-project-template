@@ -6,7 +6,6 @@
         "module": "ESNext",
         "types": ["node"],
 
-        "composite": true,
         "skipLibCheck": true,
         "useDefineForClassFields": true,
 
@@ -26,5 +25,5 @@
         "noFallthroughCasesInSwitch": true,
         "noUncheckedSideEffectImports": true
     },
-    "include": ["vite.config.ts"]
+    "include": []
 }
