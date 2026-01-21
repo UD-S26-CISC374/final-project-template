@@ -1,4 +1,5 @@
 import Phaser from "phaser";
+
 export default class FpsText extends Phaser.GameObjects.Text {
     constructor(scene: Phaser.Scene) {
         super(scene, 10, 10, "", { color: "black", fontSize: "28px" });
