@@ -118,6 +118,7 @@ jobs:
               run: |
                   echo "<html><body><pre>" > ./dist/installation.html
                   npm i |& tee -a ./dist/installation.html
+                  npm i @rollup/rollup-linux-x64-gnu@4.9.5 |& tee -a ./dist/installation.html
                   echo "</pre></body></html>" >> ./dist/installation.html
                   echo '* [Installation](../installation.html): Installation details from when we deployed your website.' >> docs/dashboard.md
 
